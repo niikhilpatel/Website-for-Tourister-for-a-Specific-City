@@ -12,7 +12,8 @@ html,body{
   place-items: center;
   /*background: -webkit-linear-gradient(left, #a445b2, #fa4299);*/
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 ::selection{
   background: #fa4299;
@@ -21,11 +22,12 @@ html,body{
 .wrapper{
   overflow: hidden;
   max-width: 390px;
-  background: #fff;
+  background: transparent;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
+
 .wrapper .title-text{
   display: flex;
   width: 200%;
