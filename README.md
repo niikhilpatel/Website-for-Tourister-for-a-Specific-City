@@ -1,6 +1,6 @@
 ### Website for Tourister for a Specific City
 
-## Project : Website for Tourist Attractions places of a Specific City
+## Project : Website for Tourist Attractions Places of a Specific City
 
 Basic Requirements
 
